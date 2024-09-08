@@ -32,9 +32,6 @@ dependencies {
     implementation(libs.hiddenapirefineruntime)
     compileOnly(projects.hiddenApi)
     compileOnly(libs.core.ktx)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.espresso.core)
 }
 
 zygote {
